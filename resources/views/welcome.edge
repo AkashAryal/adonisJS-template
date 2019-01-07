@@ -4,6 +4,8 @@
   <meta charset="UTF-8" />
   <title>Hello Adonis</title>
   {{ style('style') }}
+  {{ style('bundles/app') }}
+  {{ script('bundles/app') }}
 </head>
 <body>
   <section>
@@ -14,6 +16,8 @@
       <p>
         Don't know where to start? Read the <a href="https://adonisjs.com/docs">documentation</a>.
       </p>
+      <h1 class="myrandomclasss">hello</h1>
+      <button type="button" id="btnSubmit">hello</button>
     </div>
   </section>
 </body>
