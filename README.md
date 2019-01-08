@@ -1,29 +1,14 @@
-# Adonis fullstack application
+# Set up
+This adonis JS template has basic config done.
+1. webpack js + sass mixer is configured
+2. Bootstrap css + js
+3. Configured to use mysql in dev and pg during production.
 
-This is the fullstack boilerplate for AdonisJs, it comes pre-configured with.
-
-1. Bodyparser
-2. Session
-3. Authentication
-4. Web security middleware
-5. CORS
-6. Edge template engine
-7. Lucid ORM
-8. Migrations and seeds
-
-## Setup
-
-Use the adonis command to install the blueprint
-
-```bash
-adonis new yardstick
-```
-
-or manually clone the repo and then run `npm install`.
-
+## Additional Config
+1. Update mysql db name (DB_DATABASE) in .env file
+2. Create db (with name -> DB_DATABASE) before running migrations
 
 ### Migrations
-
 Run the following command to run startup migrations.
 
 ```js
