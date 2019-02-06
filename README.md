@@ -8,7 +8,7 @@ This adonis JS template has basic config done.
 1. run npm install
 2. Update mysql db name (DB_DATABASE) in .env file
 3. Create db (with name -> DB_DATABASE) before running migrations
-4. run ```npm run complie``` to compile assets.
+4. run ```npm run compile``` to compile assets.
 
 ## Migrations
 Run the following command to run startup migrations.
